@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cs-container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Welcome to Art Store. Login or Create new account</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa fa-user"></i> My Account</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-gift"></i>Wish List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i>Shopping Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-arrow-right"></i>Checkout</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <header>
+              <div class="heading">
+                  <h1 class="icon">Art Store</h1>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+              </div>
+          </header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light border-grey">          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto secondary-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Art Works<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Artists</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Specials
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <div class="content">
+            <div class="row">
+                <div class="left-content">
+                    <h1>Self-Potrait in a Straw Hat</h1>
+                    <h5>By <span style="color: blue;">Louise Elizabeth</span></h5>
+                    <div class="row">
+                        <div class="image-img"></div>
+                        <div class="content-desc" style="margin-left: 10px;">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, eum aspernatur perferendis, quas corporis ratione quia ut error obcaecati quo maxime consectetur quasi, eius dolorum. Porro eligendi tempore, facere voluptatem quas tempora rem consequuntur harum quam, at adipisci distinctio incidunt.</p>
+                            <h3 style="color: red;">$700</h3>
+                            <button class="btn text-info bold"><i class="fa fa-gift"></i>Add to Wish List</button>
+                            <button class="btn text-info bold"><i class="fa fa-shopping-cart"></i>Add to Shopping Cart</button>
+                            <table class="table"  style="margin-top: 20px;" >
+                                <thead>
+                                  <tr>
+                                    <th class="table-active"scope="col" colspan="2">Product Details</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">Date : </th>
+                                    <td>1982</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Medium</th>
+                                    <td>Oil on Canvas</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Dimensions</th>
+                                    <td>98cm x 71cm</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Genres</th>
+                                    <td>Realism</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Subjects</th>
+                                    <td>People, Arts</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <h3>Similar Products</h3>
+                        <div class="row">
+                            <div class="image-artworks">
+                                <img src="./artist.jpg" alt="artist" width="151px" height="170px">
+                                <h5>Artist</h5>
+                                <div class="row">
+                                    <button class="btn btn-primary"><i class="fa fa-info"></i>View</button>
+                                    <button class="btn btn-success"><i class="fa fa-gift"></i>Wish</button>
+                                    <button class="btn btn-info"><i class="fa fa-cart"></i>Cart</button>
+                                </div>
+                            </div>
+                            <div class="image-artworks">
+                                <img src="./artist.jpg" alt="artist" width="151px" height="170px">
+                                <h5>Artist</h5>
+                                <div class="row">
+                                    <button class="btn btn-primary"><i class="fa fa-info"></i>View</button>
+                                    <button class="btn btn-success"><i class="fa fa-gift"></i>Wish</button>
+                                    <button class="btn btn-info"><i class="fa fa-cart"></i>Cart</button>
+                                </div>
+                            </div>
+                            <div class="image-artworks">
+                                <img src="./artist.jpg" alt="artist" width="151px" height="170px">
+                                <h5>Artist</h5>
+                                <div class="row">
+                                    <button class="btn btn-primary"><i class="fa fa-info"></i>View</button>
+                                    <button class="btn btn-success"><i class="fa fa-gift"></i>Wish</button>
+                                    <button class="btn btn-info"><i class="fa fa-cart"></i>Cart</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="right-panel">
+                    <div class="cart-box">
+                        <div class="bg-primary" style="padding: 10px;">
+                            <h3 class="text-white">Cart</h3>
+                        </div>
+                        <div class="box-content">
+                            <div class="row center" style="margin: 10px 0;">
+                                <img src="./artist.jpg" width="80px" height="80px">
+                                <h5 class="text-blue">Artist Lorem ipsum dolor sit amet.</h5>
+                            </div>
+                            <div class="row center" style="margin: 10px 0;">
+                                <img src="./artist.jpg" width="80px" height="80px">
+                                <h5 class="text-blue">Artist Lorem ipsum dolor sit amet.</h5>
+                            </div>
+                            <div class="row center">
+                                <h3 style="font-size: 20px;">Subtotal : </h3>
+                                <p style="font-size: 20px;">$1240</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular-artists mt-5 border-blue">
+                        <div class="bg-sky"  style="padding: 10px;">
+                            <h3>Popular Artists</h3>
+                        </div>
+                        <div class="flex-column-center">
+                            <p class="text-sky m-3">Lorem ipsum dolor</p>
+                            <p class="text-sky m-3">Lorem ipsum dolor</p>
+                            <p class="text-sky m-3">Lorem ipsum dolor</p>
+                            <p class="text-sky m-3">Lorem ipsum dolor</p>
+                            <p class="text-sky m-3">Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                    <div class="popular-artists mt-5 border-blue">
+                        <div class="bg-sky"  style="padding: 10px;">
+                            <h3>Popular Genres</h3>
+                        </div>
+                        <div class="flex-column-center">
+                            <p class="text-sky m-3">Lorem ipsum </p>
+                            <p class="text-sky m-3">Lorem ipsum </p>
+                            <p class="text-sky m-3">Lorem ipsum </p>
+                            <p class="text-sky m-3">Lorem ipsum </p>
+                            <p class="text-sky m-3">Lorem ipsum </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <footer>
+        <div>
+            <h3><i class="fa fa-info-circle"></i>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et quis assumenda odit, nostrum cum illum, quidem repellendus provident temporibus tempora voluptatum veritatis consectetur sequi obcaecati? Nulla quis eligendi natus sit quisquam explicabo deleniti voluptate voluptates facilis iusto aspernatur dignissimos cum blanditiis ut provident officia architecto nostrum, nisi delectus modi doloremque?</p>
+        </div>
+        <div>
+            <h3><i class="fa fa-info-phone"></i>Customer Service</h3>
+            <p class="text-sky">Lorem, ipsum dolor sit.</p>
+            <p class="text-sky">Lorem, ipsum dolor.</p>
+            <p class="text-sky">Lorem, ipsum dolor.</p>
+            <p class="text-sky">Lorem, ipsum dolor.</p>
+        </div>
+        <div>
+            <h3><i class="fa fa-shopping-cart"></i>Just Ordered</h3>
+            <div class="row">
+                <img src="./artist.jpg" width="60px" height="60px">
+                <div class="col">
+                    <p class="text-sky">Lorem ipsum .</p>
+                    <p>5 minutes ago</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3><i class="fa fa-envelope"></i>Contact Us</h3>
+            <!-- add the url in action and if the form doesnt work change method POST to GET -->
+            <form action="" method="POST">  
+                <input type="text" placeholder="Enter Name" name="name">
+                <input type="email" placeholder="Enter email" name="email">
+                <textarea name="message"></textarea>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+</body>
+</html>

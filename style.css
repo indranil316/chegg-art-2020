@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cs-container{
+    padding: 0 150px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+i{
+    margin-right: 4px!important;
+}
+.content{
+    padding: 30px 0;
+}
+.secondary-nav li a{
+    font-weight: bold;
+    color: grey;
+}
+.secondary-nav li a:focus{
+    background-color: rgb(197, 197, 197)!important;
+}
+.secondary-nav li a:hover{
+    background-color: rgb(218, 218, 218)!important;
+}
+.border-grey{
+    border: 1px solid rgb(228, 228, 228)!important;
+}
+.alert-box{
+    width: 100%;
+    background-color: rgb(255, 241, 181);
+    color: black;
+    padding: 10px 20px;
+}
+.alert-box p{
+    margin: 0;
+}
+.image-gallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.image{
+    width: 150px;
+    height: 220px;
+    padding: 8px;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 20px;
+}
+.image-artworks{
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+}
+.image-artworks button{
+    margin: 0 5px;
+}
+.footer{
+    margin: 30px 0;
+}
+.cs-progress-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 8px;
+}
+.cs-progress-bar div{
+    padding: 7px 15px;
+}
+.cs-progress-bar div:nth-child(1){
+    width: 10%;
+    background: lightblue;
+}
+.cs-progress-bar div:nth-child(2){
+    width: 20%;
+    background: rgb(101, 146, 101);
+}
+.cs-progress-bar div:nth-child(3){
+    width: 25%;
+    background: rgb(218, 218, 101);
+}
+.cs-progress-bar div:nth-child(4){
+    width: 20%;
+    background: rgb(192, 37, 37);
+}
+.cs-progress-bar div:nth-child(5){
+    width: 25%;
+    background: rgb(60, 114, 185);
+}
+.icon{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 45px;
+}
+.number{
+    display: inline;
+    width: 35px;
+    padding: 4px;
+    height: 18px;
+    margin-left: 5px;
+    font-size: 15px;
+    border-radius: 40%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.left-content{
+    width: 70%;
+}
+.right-panel{
+    width: 30%;
+}
+.image-img{
+    background-image: url('./artist.jpg');
+    width: 40%;
+    height: 520px;
+    background-size: cover;
+    background-repeat: none;
+}
+.content-desc{
+    width: 55%;
+}
+.bold{
+    font-weight: bold;
+}
+.cart-box{
+    border: 1px solid blue;
+}
+.text-blue{
+    color: blue;
+}
+.center{
+    align-items: center;
+    justify-content: space-evenly;
+}
+.border-blue{
+    border: 1px solid lightblue;
+}
+.bg-sky{
+    background-color: lightblue;
+}
+.text-sky{
+    color: rgb(106, 168, 189);
+}
+.flex-column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+footer div{
+    width: 22%;
+    margin: 10px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea{
+    padding: 6px 10px;
+    border: none;
+    margin: 5px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
